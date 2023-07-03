@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background-color: #e5eff5;
+    font-family: 'Karla', sans-serif;
+    padding: 20px;
+    font-size: 16px;
+}
+html {
+    box-sizing: border-box;
+}
+h2,h4,p{
+    margin: 0;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.card{
+    width: 600px;
+    height: 430px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: auto;
+}
+.co1{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    padding: 25px;
+}
+.co1 h2 {
+    color: #2ab2af;
+    margin-bottom: 20px;
+}
+.co1 h4 {
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+.co1 p {
+    color: #98a6bd;
+    line-height: 25px;
+}
+.bot{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    color: white;
+}
+.co2{
+    width: 50%;
+    height: 100%;
+    background-color: #2ab2af;
+    padding: 25px;
+}
+.co3 {
+    width: 50%;
+    height: 100%;
+    background-color: #68d6d3;
+    padding: 25px;
+}
+.co2 h4{
+    padding-bottom: 22px;
+}
+.price-container{
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+.co2 p {
+    font-size :  0.8rem;
+    margin-bottom: 30px;
+
+}
+button{
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #cff13a;
+    transform: scale(1.02);
+}
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: inline-block;
+}
+#time{
+    color: #c7d5ea;
+    display: inline-block;
+}
+.co3 ul {
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    opacity: 80%;
+    line-height: 25px;
+}
